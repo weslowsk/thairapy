@@ -617,7 +617,7 @@ Weebly.mobile_navigation = (function($) {
     if (!Weebly.mobile) {
         // reset iframe content sizes
         $(window).on("message", function(event) {
-            if (!event.origin || event.origin.indexOf('weebly.com') === -1) {
+            if (!event.origin || event.origin.indexOf('thairapymelville.com') === -1) {
                 return;
             }
             
